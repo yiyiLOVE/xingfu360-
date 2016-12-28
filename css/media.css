@@ -1,0 +1,26 @@
+@media screen and (max-width:1024px)
+{
+  .container{width:94%; margin:0 auto;}
+  .headernav{display: none}
+   body{ background:#fff;} 
+  .navmenu li a{width:100px;}
+  .navmenu .submenu{width:130px !important;}
+  .navmenu li a{width:130px !important;}
+  
+@media screen and (max-width:768px)
+{
+   	.headernav{display: block}
+	header{ display:none;}
+	.navmenu{ display:none;}
+	.owl-theme .owl-controls .owl-pagination{left:35%}
+	.main-banner{ width:100%}
+	.teamworks{ width:100%}
+	.teamworks .team dl{ margin-right:0 !important}
+	.booking a{ display:block;width:70px; background:#09F !important; color:#fff; margin-bottom:20px !important;margin:5px  auto !important}
+	.about{ width:80%;margin-top:10%;}
+	.about h2{ font-size:2.4rem;  padding-top:20px !important}
+	.parent h2{ border-bottom:1px solid #ccc; padding-bottom:10px;font-size:2rem; margin-top:30px}
+}
+@media screen and (max-width:480px)
+{
+}

@@ -1,0 +1,68 @@
+/*移动端导航*/
+nav:not(.mm-menu){display: none;}
+.headernav{ display:none;}
+.headernav{text-align: center;}
+.headernav{	background:transprent ;font-size: 16px;font-weight:bold;color:#09C;line-height: 40px;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;height: 40px;padding: 0 50px;}
+.headernav.fixed{position: fixed;top: 0;left: 0;}
+.mobilenav{color:#000;font-size:26px !important;display: block;width: 30px;height: 30px;position: absolute;top: 7px;left: 8px;}
+.mobilenav:hover{color:#666;}
+/*头部*/
+.tel{ text-align:right}
+/*导航条*/
+.navmenu{ background:#09F; height:40px; position:relative;}
+.navmenu li{ float:left; border-right:1px solid #09d}
+.navmenu li:last-child{ border:none}
+.navmenu li a{ color:#fff;line-height:40px; font-size:1.2em; font-weight:bold; display:inline-block;width:170px; text-align:center}
+.navmenu li a:hover{ background:#EA0075}
+.navmenu .index{display:inline-block; line-height:40px;font-size:1.6em}
+/*子导航条*/
+.navmenu .submenu{clear:both; background:#CCC; position:absolute; display:none; z-index:1;width:170px;}
+.navmenu .submenu li{ clear:both; border:none;}
+.navmenu li:hover .submenu{ display:block; margin:0;}
+/*BANNER*/
+.banner{ background:#EAEAEA; width:100%}
+.banner img{max-width:100%}
+/*幻灯图片*/
+#owl-demo { width: 100%; margin:0 auto;}
+#owl-demo .item {display: block;}
+#owl-demo img {display: block; width: 100%;}
+/*幻灯数量*/
+.fo-content{ position:relative; text-align:center}
+.fo-content img{ max-width:100%;}
+.owl-theme .owl-controls .owl-page{display: inline-block;zoom: 1;*display: inline;/*IE7 life-saver */}
+.owl-theme .owl-controls .owl-pagination{position:absolute; bottom:1%;display: inline-block;left:45%}
+.owl-theme .owl-controls .owl-page span{display: block;width: 14px;height: 14px;margin:3px 7px;filter: Alpha(Opacity=50);/*IE7 fix*/opacity: 0.5;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;background: #fff;}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{background:#ccc;filter: Alpha(Opacity=100);/*IE7 fix*/opacity: 1;}
+.owl-theme .owl-controls .owl-page.active span{width:14px;height:14px;}
+
+.main-banner{ width:100%; margin:0 auto;box-shadow:0px 0px 30px #CCC}
+.container .title{ margin:30px 0 20px 5%; font-size:2rem;}
+/*团队介绍*/
+.teamworks{width:100%; margin:0 auto;}
+.teamworks h2{margin:30px 0 20px; font-size:2rem;}
+.teamworks .team{width:100%}
+.team img{ max-width:100%}
+.team dd{ margin:0}
+.teamworks .team dl{ margin-right:30px}
+.teamworks .team b{ font-size:1.8rem; font-weight:normal; display:inline-block; margin:10px 0}
+.teamworks a,.about a{ display:inline-block; background:#09F; color:#fff; padding:6px 13px}
+.teamworks a:hover,.about a:hover{ background:#EA0075;transition:all 0.3s linear;-webkit-transition:all 0.3s linear}
+.team i{ margin-left:5px}
+/*在线预约*/
+.booking{ background:#09F; height:50px;text-align:center; margin:30px 0; line-height:50px; color:#fff; font-size:1.5rem}
+.booking a{ display:inline-block; background:#fff; padding:6px 15px; line-height:normal; margin-left:20px}
+/*关于我们*/
+.about{ width:80%;margin-top:4%;margin-left:6%}
+.about h2{ font-size:2.4rem; margin:0; padding:0}
+.about p{ line-height:2em;}
+.about h3{font-size:2rem; font-weight:normal; margin:15px 0 30px}
+/*视频*/
+.video{margin-top:4%;}
+.video img{ max-width:100%}
+/*合作伙伴*/
+.parent{ width:90%;margin-top:5%; margin-left:4%}
+.parent h2{ border-bottom:1px solid #ccc; padding-bottom:10px;font-size:2rem; margin-bottom:2%}
+/*版权*/
+.footer{ height:150px; background:#09c;}
+.footer p{ color:#fff; text-align:center; padding-top:60px}
